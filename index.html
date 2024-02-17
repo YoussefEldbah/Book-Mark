@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../BOOK MARK/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../BOOK MARK/css/all.min.css">
+    <link rel="stylesheet" href="../BOOK MARK/css/style.css">
+    <title>BookMark</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class=" text-center py-5">
+            <h1>Bookmarker</h1>
+            <h2 class="py-5 text-center "> Bookmark your favorite sites </h2>
+        </div>
+
+        <div class="py-4 mx-auto">
+            <label for="siteName">Site Name</label>
+            <input oninput="validateUrlName()" class=" form-control  my-2" type="text" id="siteName">
+            <label for="siteUrl">Site URL</label>
+            <input oninput="validateUrl()" class=" form-control  my-2" type="text" id="siteUrl">
+            <!-- <label for="search">Search</label>
+            <input oninput="searchByName(this.value)" class=" form-control  my-2" type="text" id="search"> -->
+            <div class="  d-flex justify-content-center align-content-center">
+                <button onclick="add()" class="btn-submit  border btn btn-dark rounded-3 btn-lg text-center mt-2 p-2 px-5">Submit</button>
+
+            </div>
+
+
+
+        </div>
+        <div class="mx-auto mt-4">
+            <table class=" table text-center bg-light">
+                <thead>
+                    <th>
+                        Index
+                    </th>
+                    <th>
+                        Website Name
+                    </th>
+                    <th>
+                        Visit
+                    </th>
+                    <th>
+                        Delete
+                    </th>
+                </thead>
+                <tbody class="text-center" id="zz">
+
+
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container w-75 mb-2">
+        <h1 class=" mb-3">Project Management System</h1>
+        <div class="form-group py-2">
+            <label for="productname">Product Name</label>
+            <input type="text" id="productname" class="form-control" placeholder="Product Name">
+        </div>
+        <div class="form-group py-2">
+            <label for="productprice">Product Price</label>
+            <input type="number" id="productprice" class="form-control" placeholder="Product Price">
+        </div>
+        <div class="form-group py-2">
+            <label for="productcat">Product Cat</label>
+            <input type="text" id="productcat" class="form-control" placeholder="Product Cat">
+        </div>
+        <div class="form-group py-3">
+            <label for="productdesc">Product Desc</label>
+            <textarea id="productdesc" class="form-control" placeholder="Product Desc" cols="20" rows="10"></textarea>
+        </div>
+        <button onclick="addProduct()" class=" btn btn-primary btn-lg pt-2"> Add Product</button>
+    </div>
+    <div class=" w-75  m-auto text-white text-center py-3">
+        <table class=" table">
+            <thead>
+                <th>
+                    Index
+                </th>
+                <th>
+                    Product Name
+                </th>
+                <th>
+                    Product Price
+                </th>
+                <th>
+                    Product Cat
+                </th>
+                <th>
+                    Product Desc
+                </th>
+                <th>
+                    Update
+                </th>
+                <th>
+                    Delete
+                </th>
+            </thead>
+            <tbody id="tBody">
+
+
+
+            </tbody>
+        </table>
+    </div> -->
+    <script src="../BOOK MARK/js/main.js"></script>
+</body>
+
+</html>
